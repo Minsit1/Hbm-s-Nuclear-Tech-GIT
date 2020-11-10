@@ -472,7 +472,7 @@ public class ExplosionNukeGeneric {
 				if (rand == 1) {
 					world.setBlock(x, y, z, ModBlocks.ore_schrabidium);
 				} else {
-					world.setBlock(x, y, z, ModBlocks.ore_uranium_scorched);
+					world.setBlock(x, y, z, ModBlocks.ore_uranium);
 				}
 			}
 
@@ -481,7 +481,7 @@ public class ExplosionNukeGeneric {
 				if (rand == 1) {
 					world.setBlock(x, y, z, ModBlocks.ore_nether_schrabidium);
 				} else {
-					world.setBlock(x, y, z, ModBlocks.ore_nether_uranium_scorched);
+					world.setBlock(x, y, z, ModBlocks.ore_nether_uranium);
 				}
 			}
 
@@ -490,7 +490,7 @@ public class ExplosionNukeGeneric {
 				if (rand == 1) {
 					world.setBlock(x, y, z, ModBlocks.ore_gneiss_schrabidium);
 				} else {
-					world.setBlock(x, y, z, ModBlocks.ore_gneiss_uranium_scorched);
+					world.setBlock(x, y, z, ModBlocks.ore_gneiss_uranium);
 				}
 			}
 
